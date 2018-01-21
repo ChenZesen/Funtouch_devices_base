@@ -1,0 +1,85 @@
+<workflow>
+    <phase action="init">
+        <state>inactive</state>
+        <next action="config" />
+    </phase>
+
+    <phase action="config">
+        <state>inactive</state>
+        <next action="pallota" />
+
+        <sequence>
+            <command>funinit 2>/dev/null</command>
+        </sequence>
+    </phase>
+
+    <phase action="pallota">
+        <state>inactive</state>
+        <prev action="config" />
+        <next action="autopatch" />
+
+        <sequence>
+            <command>fun pullota</command>
+            <command>git init</command>
+            <command>git add --all</command>
+            <command>git commit -am "The current state: newproject"</command>
+        </sequence>
+    </phase>
+
+    <phase action="autopatch">
+        <state>inactive</state>
+        <prev action="pallota" />
+        <next action="updatezip" />
+
+        <sequence>
+            <command>make autopatch</command>
+        </sequence>
+    </phase>
+
+   <!-- <phase action="autofix">
+        <state>inactive</state>
+        <prev action="patchall" />
+        <next action="fullota" />
+
+        <sequence>
+            <command>make autofix</command>
+        </sequence>
+    </phase>
+-->
+    <phase action="updatezip">
+        <state>inactive</state>
+        <next action="final" />
+
+        <sequence>
+            <command>make</command>
+        </sequence>
+    </phase>
+
+    <phase action="final">
+        <state>inactive</state>
+    </phase>
+
+    <phase action="clean">
+        <sequence>
+            <command>make clean</command>
+        </sequence>
+    </phase>
+
+    <phase action="cleanall">
+        <sequence>
+            <command>make clean-all</command>
+        </sequence>
+    </phase>
+
+    <phase action="upgrade">
+        <sequence>
+            <command>make upgrade</command>
+        </sequence>
+    </phase>
+
+    <phase action="porting">
+        <sequence>
+            <command>make porting</command>
+        </sequence>
+    </phase>
+</workflow>

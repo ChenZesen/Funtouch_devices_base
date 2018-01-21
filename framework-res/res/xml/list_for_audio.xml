@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device name="Android">
+    <array name="array_2">
+        <value>com.youku.phone</value>
+        <value>com.qiyi.video</value>
+        <value>com.tudou.android</value>
+        <value>com.tencent.qqlive</value>
+        <value>com.sohu.sohuvideo</value>
+        <value>com.storm.smart</value>
+        <value>com.letv.android.client</value>
+        <value>com.baidu.video</value>
+        <value>com.funshion.video.mobile</value>
+        <value>com.pplive.androidphone</value>
+        <value>com.hunantv.imgo.activity</value>
+        <value>com.duowan.mobile</value>
+        <value>com.le123.ysdq</value>
+        <value>tv.pps.mobile</value>
+        <value>com.xunlei.kankan</value>
+    </array>
+    <array name="array_3">
+        <value>com.tencent.pao</value>
+        <value>com.happyelements.AndroidAni</value>
+        <value>com.qqgame.hlddz</value>
+        <value>com.tencent.clover</value>
+        <value>com.netease.ldxy.vivo</value>
+        <value>com.gameley.tar.nl.mm.bbk</value>
+        <value>com.tencent.tmgp.wx3mby</value>
+        <value>com.yinhan.hunter.bbg</value>
+        <value>net.crimoon.pm.vivo</value>
+        <value>com.yinhan.shenmo.bubugao</value>
+        <value>com.linkstudio.xmxx.v</value>
+        <value>sh.lilith.dgame.vivo</value>
+        <value>com.cmge.crisisfire.android</value>
+        <value>com.supercell.boombeach.vivo</value>
+        <value>com.ttxw.vivo</value>
+        <value>com.netease.my.vivo</value>
+        <value>com.snailgame.panda.vivo</value>
+        <value>com.SmartSpace.TheSoulOfSwor</value>
+        <value>com.tianmashikong.qmqj.vivo</value>
+        <value>com.pape.nuannew.cm.vivo</value>
+    </array>
+</device>

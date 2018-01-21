@@ -1,0 +1,5 @@
+
+#vivo keli add for panel inverse begin
+#on early-boot
+#    setprop persist.panel.inversemounted "1"
+#vivo keli add panel inverse end

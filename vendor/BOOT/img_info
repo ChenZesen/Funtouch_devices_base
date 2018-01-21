@@ -1,0 +1,12 @@
+kernel=kernel
+ramdisk=RAMDISK
+page_size=2048
+kernel_size=14606678
+ramdisk_size=5129262
+base_addr=0x80000000
+kernel_offset=0x00008000
+ramdisk_offset=0x01000000
+tags_offset=0x00000100
+cmd_line='console=ttyHSL0,115200,n8 androidboot.console=null androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci product.version=PD1616_D_1.27.1 androidboot.securebootkey=beta androidboot.securebootkeyhash=da758fd52632ba6649d61830a88bbe76a616e4b083b9358b3e98e13772dc139d androidboot.securebootkeyver=2'
+board=""
+format=gzip

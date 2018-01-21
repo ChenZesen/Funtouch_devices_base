@@ -1,0 +1,23 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.vivo.massproduction=no
+ro.secure=1
+security.perf_harden=1
+ro.allow.mock.location=0
+ro.debuggable=0
+ro.adb.secure=1
+ro.zygote=zygote64_32
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+ro.dalvik.vm.native.bridge=0
+debug.atrace.tags.enableflags=0
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=2017年 06月 29日 星期四 22:01:05 CST
+ro.bootimage.build.date.utc=1498744865
+ro.bootimage.build.fingerprint=vivo/PD1616/PD1616:6.0.1/MMB29M/compiler06292155:user/release-keys
+persist.sys.usb.config=none

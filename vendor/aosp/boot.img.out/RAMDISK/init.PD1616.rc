@@ -1,0 +1,21 @@
+/*
+ * =====================================================================================
+ *
+ *       Filename:  init.msm8916.rc
+ *
+ *    Description:  init.rc only for msm8916
+ *
+ *        Version:  1.0
+ *        Created:  03/02/2015 04:32:25 PM
+ *       Revision:  none
+ *       Compiler:  gcc
+ *
+ *         Author:  zengqingming (), 
+ *        Company:  
+ *
+ * =====================================================================================
+ */
+ 
+ #add by liudingrong for PD1616 wifi calibration file
+ on early-boot
+	write /sys/module/wcnsscore/parameters/project_name "PD1616"

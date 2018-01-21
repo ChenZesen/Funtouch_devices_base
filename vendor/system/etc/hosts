@@ -1,0 +1,28 @@
+127.0.0.1       localhost
+::1             ip6-localhost
+
+127.0.0.1           update.miui.com
+127.0.0.1           bigota.d.miui.com
+127.0.0.1		    ota.scloud.letv.com
+127.0.0.1		    g3.letv.cn
+127.0.0.1           i.ota.coloros.com
+127.0.0.1           sysupgrade.vivo.com.cn
+127.0.0.1           update.hicloud.com 
+127.0.0.1           query.hicloud.com
+127.0.0.1           51coolpad.com  
+127.0.0.1           otaapi.coolyun.com 
+127.0.0.1           coolpush.coolyun.com  
+127.0.0.1           ota.coolyun.com 
+127.0.0.1           seccenter.coolyun.com 
+127.0.0.1           appupdate.coolyun.com
+127.0.0.1           gamecenter.coolyun.com 
+127.0.0.1           appupdate.51coolpad.com 
+127.0.0.1           appadv.51coolpad.com 
+127.0.0.1           fus.lenovomm.com 
+127.0.0.1           adups.cn 
+127.0.0.1           0.hisenseota.duapp.com 
+127.0.0.1           dl.gionee.com
+127.0.0.1           update.gionee.com
+127.0.0.1           dl14.ztems.com
+127.0.0.1           fotadown.mayitek.com
+

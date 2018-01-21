@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_bar_height">22.5dip</dimen>
+    <dimen name="status_bar_icon_size">34.0px</dimen>
+    <dimen name="bbkDialogBtnTextSize">17.0sp</dimen>
+</resources>

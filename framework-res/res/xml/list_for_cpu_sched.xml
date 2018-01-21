@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device name="Android">
+    <array name="array_2">
+        <value>com.leon.iphonecompass</value>
+        <value>com.kawaks</value>
+    </array>
+</device>

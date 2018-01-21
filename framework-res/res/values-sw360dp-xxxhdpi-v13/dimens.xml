@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_bar_height">24.0dip</dimen>
+    <dimen name="status_bar_icon_size">96.0px</dimen>
+    <dimen name="bbkDialogBtnTextSize">17.0sp</dimen>
+    <item type="dimen" name="titleShadowRadius">1.0</item>
+    <dimen name="bbkDailogItemHeight">46.0dip</dimen>
+    <dimen name="bbk_alert_dialog_title_height">46.0dip</dimen>
+    <dimen name="bbkResolverPicSize">36.0dip</dimen>
+    <dimen name="bbkDailogItemMarginSize">0.0dip</dimen>
+</resources>

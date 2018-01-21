@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device name="Android">
+    <item name="none">0</item>
+    <item name="screen.on">41</item>
+    <item name="screen.full">127</item>
+    <item name="bluetooth.active">87</item>
+    <item name="bluetooth.on">4</item>
+    <item name="wifi.on">0.1</item>
+    <item name="wifi.active">72</item>
+    <item name="wifi.scan">10</item>
+    <item name="dsp.audio">28</item>
+    <item name="dsp.video">328</item>
+    <item name="radio.active">84</item>
+    <item name="radio.scanning">10</item>
+    <item name="gps.on">2</item>
+    <item name="camera.flashlight">77</item>
+    <item name="cpu.awake">2</item>
+    <item name="wifi.ap">145</item>
+    <item name="super.saving.mode">75</item>
+    <item name="default.average">106</item>
+    <item name="single.idle">12</item>
+    <item name="single.phone">65</item>
+    <item name="single.music">34</item>
+    <item name="single.video">207</item>
+    <item name="single.brower">168</item>
+    <item name="single.read">145</item>
+    <item name="is.pem">1</item>
+    <item name="screen.is.oled">1</item>
+    <item name="samples">800</item>
+    <item name="self">48</item>
+    <item name="white">423</item>
+    <item name="black">70</item>
+    <item name="red">194</item>
+    <item name="green">192</item>
+    <item name="blue">287</item>
+    <item name="gpu.config">2</item>
+    <array name="gpu.active">
+        <value>195</value>
+        <value>168</value>
+        <value>153</value>
+        <value>120</value>
+        <value>96</value>
+        <value>65</value>
+        <value>40</value>
+    </array>
+    <array name="radio.on">
+        <value>5</value>
+        <value>4</value>
+        <value>3.5</value>
+        <value>3</value>
+        <value>2.5</value>
+        <value>2</value>
+    </array>
+    <array name="cpu.speeds">
+        <value>652800</value>
+        <value>1036800</value>
+        <value>1401600</value>
+        <value>1689600</value>
+        <value>1843200</value>
+        <value>1958400</value>
+        <value>2016000</value>
+    </array>
+    <item name="cpu.idle">4.4</item>
+    <array name="cpu.active">
+        <value>18</value>
+        <value>28</value>
+        <value>41</value>
+        <value>54</value>
+        <value>70</value>
+        <value>85</value>
+        <value>93</value>
+    </array>
+    <item name="battery.capacity">3000</item>
+    <array name="wifi.batchedscan">
+        <value>.0002</value>
+        <value>.002</value>
+        <value>.02</value>
+        <value>.2</value>
+        <value>2</value>
+    </array>
+</device>
